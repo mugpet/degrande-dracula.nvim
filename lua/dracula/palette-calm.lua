@@ -17,7 +17,6 @@ return {
    cyan = "#60c0ff", -- tags
    purple = "#80ff60", -- used as ANSI 4 (blue)
 
-
    bright_cyan = "#00ffe0",
 
    -- indexes 9-15
@@ -34,21 +33,20 @@ return {
    gutter_fg = "#14181f",
    black = "#14181f", -- ANSI 0
 
-
    --- terminal colors
    --
+   twhite = "#dddddd", -- ANSI 7, 'selection' used for ANSI 8
    tred = "#ff7070",
-   tpink = "#20a0ff", -- const, imports, etc
-   tyellow = "#f0f0a0", -- strings
+   tpink = "#50a0ff", -- const, imports, etc
+   tyellow = "#f0e000", -- strings
    tbright_magenta = "#a0d0ff",
    tcyan = "#60c0ff", -- tags
    tpurple = "#e080ff", -- used as ANSI 4 (blue)
    tgreen = "#80ff60", -- used as ANSI 4 (blue)
-   
+
    tbright_red = "#ff60b0",
    tbright_green = "#6fffb0",
-   tbright_yellow = "#FfFf80",
+   tbright_yellow = "#FfF860",
    tbright_blue = "#D0B5F3",
    tbright_white = "#FFFFFF", -- index 15
-
 }
