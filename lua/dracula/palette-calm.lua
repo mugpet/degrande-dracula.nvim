@@ -7,22 +7,18 @@ return {
    orange = "#50f0ff",
    -- ANSI
    red = "#ffa0a0",
-   
 
-   white = "#ff40ff", -- ANSI 7, 'selection' used for ANSI 8
+   white = "#f040ff", -- ANSI 7, 'selection' used for ANSI 8
 
-
-
-   pink = "#20a0ff",  -- const, imports, etc
+   pink = "#20a0ff", -- const, imports, etc
    yellow = "#f0f0a0", -- strings
-   green = "#ff6090" ,  -- functions, methods, etc
+   green = "#ff6090", -- functions, methods, etc
    bright_magenta = "#ff00f0",
    cyan = "#60c0ff", -- tags
    purple = "#80ff60", -- used as ANSI 4 (blue)
 
 
    bright_cyan = "#00ffe0",
-
 
    -- indexes 9-15
    bright_red = "#ffb080",
@@ -37,6 +33,22 @@ return {
 
    gutter_fg = "#14181f",
    black = "#14181f", -- ANSI 0
+
+
+   --- terminal colors
+   --
+   tred = "#ff7070",
+   tpink = "#20a0ff", -- const, imports, etc
+   tyellow = "#f0f0a0", -- strings
+   tbright_magenta = "#a0d0ff",
+   tcyan = "#60c0ff", -- tags
+   tpurple = "#e080ff", -- used as ANSI 4 (blue)
+   tgreen = "#80ff60", -- used as ANSI 4 (blue)
+   
+   tbright_red = "#ff60b0",
+   tbright_green = "#6fffb0",
+   tbright_yellow = "#FfFf80",
+   tbright_blue = "#D0B5F3",
+   tbright_white = "#FFFFFF", -- index 15
+
 }
-
-

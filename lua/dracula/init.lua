@@ -33,21 +33,21 @@ local TRANSPARENTS = {
 
 local function apply_term_colors(colors)
    g.terminal_color_0 = colors.black
-   g.terminal_color_1 = colors.red
-   g.terminal_color_2 = colors.green
-   g.terminal_color_3 = colors.yellow
-   g.terminal_color_4 = colors.purple
-   g.terminal_color_5 = colors.pink
-   g.terminal_color_6 = colors.cyan
-   g.terminal_color_7 = colors.white
+   g.terminal_color_1 = colors.tred
+   g.terminal_color_2 = colors.tgreen
+   g.terminal_color_3 = colors.tyellow
+   g.terminal_color_4 = colors.tpurple
+   g.terminal_color_5 = colors.tpink
+   g.terminal_color_6 = colors.tcyan
+   g.terminal_color_7 = colors.twhite
    g.terminal_color_8 = colors.selection
-   g.terminal_color_9 = colors.bright_red
-   g.terminal_color_10 = colors.bright_green
-   g.terminal_color_11 = colors.bright_yellow
-   g.terminal_color_12 = colors.bright_blue
-   g.terminal_color_13 = colors.bright_magenta
-   g.terminal_color_14 = colors.bright_cyan
-   g.terminal_color_15 = colors.bright_white
+   g.terminal_color_9 = colors.tbright_red
+   g.terminal_color_10 = colors.tbright_green
+   g.terminal_color_11 = colors.tbright_yellow
+   g.terminal_color_12 = colors.tbright_blue
+   g.terminal_color_13 = colors.tbright_magenta
+   g.terminal_color_14 = colors.tbright_cyan
+   g.terminal_color_15 = colors.tbright_white
    g.terminal_color_background = colors.bg
    g.terminal_color_foreground = colors.fg
 end
