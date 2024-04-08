@@ -32,7 +32,7 @@ local TRANSPARENTS = {
 }
 
 local function apply_term_colors(colors)
-   g.terminal_color_0 = colors.black
+   g.terminal_color_0 = colors.tblack
    g.terminal_color_1 = colors.tred
    g.terminal_color_2 = colors.tgreen
    g.terminal_color_3 = colors.tyellow

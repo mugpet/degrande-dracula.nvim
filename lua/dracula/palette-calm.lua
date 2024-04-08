@@ -28,13 +28,14 @@ return {
 
    visual = "#20263a",
    nontext = "#202636", -- indent lines
-   menu = "#14181f",
+   menu = "#181c22", -- background manu
 
    gutter_fg = "#14181f",
    black = "#14181f", -- ANSI 0
 
    --- terminal colors
    --
+   tblack = "#14181f", -- ANSI 0
    twhite = "#dddddd", -- ANSI 7, 'selection' used for ANSI 8
    tred = "#ff7070",
    tpink = "#50a0ff", -- const, imports, etc
