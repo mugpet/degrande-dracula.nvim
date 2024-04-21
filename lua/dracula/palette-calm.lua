@@ -8,14 +8,14 @@ return {
    -- ANSI
    red = "#ffa0a0",
 
-   white = "#f040ff", -- ANSI 7, 'selection' used for ANSI 8
+   white = "#ff20ce", -- ANSI 7, 'selection' used for ANSI 8
 
    pink = "#20a0ff", -- const, imports, etc
    yellow = "#f0f0a0", -- strings
-   green = "#ff6090", -- functions, methods, etc
-   bright_magenta = "#ff00f0",
+   green = "#ff6040", -- functions, methods, etc
+   bright_magenta = "#ff60b0",
    cyan = "#60c0ff", -- tags
-   purple = "#80ff60", -- used as ANSI 4 (blue)
+   purple = "#22ffa0", -- used as ANSI 4 (blue)
 
    bright_cyan = "#00ffe0",
 
@@ -35,6 +35,8 @@ return {
 
    --- terminal colors
    --
+   tselection = "#24282f",
+   
    tblack = "#14181f", -- ANSI 0
    twhite = "#dddddd", -- ANSI 7, 'selection' used for ANSI 8
    tred = "#ff7070",

@@ -40,7 +40,7 @@ local function apply_term_colors(colors)
    g.terminal_color_5 = colors.tpink
    g.terminal_color_6 = colors.tcyan
    g.terminal_color_7 = colors.twhite
-   g.terminal_color_8 = colors.selection
+   g.terminal_color_8 = colors.tselection
    g.terminal_color_9 = colors.tbright_red
    g.terminal_color_10 = colors.tbright_green
    g.terminal_color_11 = colors.tbright_yellow
