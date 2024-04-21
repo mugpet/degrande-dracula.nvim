@@ -10,19 +10,19 @@ return {
 
    white = "#ff20ce", -- ANSI 7, 'selection' used for ANSI 8
 
-   pink = "#20a0ff", -- const, imports, etc
-   yellow = "#f0f0a0", -- strings
-   green = "#ff6040", -- functions, methods, etc
-   bright_magenta = "#ff60b0",
-   cyan = "#60c0ff", -- tags
-   purple = "#22ffa0", -- used as ANSI 4 (blue)
+   pink = "#2099ff", -- const, imports, etc
+   yellow = "#fff090", -- strings
+   green = "#ff6044", -- functions, methods, etc
+   bright_magenta = "#ff50b8",
+   cyan = "#00ffe6", -- tags
+   purple = "#40ff80", -- used as ANSI 4 (blue)
 
-   bright_cyan = "#00ffe0",
+   bright_cyan = "#00ffc0",
 
    -- indexes 9-15
    bright_red = "#ffb080",
    bright_green = "#afffb0",
-   bright_yellow = "#FfFfa0",
+   bright_yellow = "#FfFfa2",
    bright_blue = "#D0B5F3",
    bright_white = "#FFFFFF", -- index 15
 
@@ -45,7 +45,7 @@ return {
    tbright_magenta = "#a0d0ff",
    tcyan = "#60c0ff", -- tags
    tpurple = "#e080ff", -- used as ANSI 4 (blue)
-   tgreen = "#80ff60", -- used as ANSI 4 (blue)
+   tgreen = "#60ff40", -- used as ANSI 4 (blue)
 
    tbright_red = "#ff60b0",
    tbright_green = "#6fffb0",
