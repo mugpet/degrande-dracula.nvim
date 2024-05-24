@@ -6,7 +6,7 @@ return {
    comment = "#70787f",
    orange = "#50f0ff",
    -- ANSI
-   red = "#ffa0a0",
+   red = "#ff4060",
 
    white = "#ff20ce", -- ANSI 7, 'selection' used for ANSI 8
 
@@ -20,7 +20,7 @@ return {
    bright_cyan = "#00ffc0",
 
    -- indexes 9-15
-   bright_red = "#ffb080",
+   bright_red = "#ff4080",
    bright_green = "#afffb0",
    bright_yellow = "#FfFfa2",
    bright_blue = "#D0B5F3",
@@ -32,6 +32,7 @@ return {
 
    gutter_fg = "#14181f",
    black = "#14181f", -- ANSI 0
+   winSplit = "#e0e099", -- ANSI 0
 
    --- terminal colors
    --
@@ -39,7 +40,7 @@ return {
    
    tblack = "#14181f", -- ANSI 0
    twhite = "#dddddd", -- ANSI 7, 'selection' used for ANSI 8
-   tred = "#ff7070",
+   tred = "#ff3060",
    tpink = "#50a0ff", -- const, imports, etc
    tyellow = "#f0e000", -- strings
    tbright_magenta = "#a0d0ff",

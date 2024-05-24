@@ -94,8 +94,8 @@ local function setup(configs)
       DiffText = { fg = colors.comment, },
 
       ErrorMsg = { fg = colors.bright_red, },
-      VertSplit = { fg = colors.black, },
-      WinSeparator = { fg = colors.black, },
+      VertSplit = { fg = colors.winSplit, },
+      WinSeparator = { fg = colors.winSplit, },
       Folded = { fg = colors.comment, },
       FoldColumn = {},
       Search = { fg = colors.black, bg = colors.orange, },
