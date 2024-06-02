@@ -23,10 +23,10 @@ return {
    bright_red = "#ff4080",
    bright_green = "#afffb0",
    bright_yellow = "#FfFfa2",
-   bright_blue = "#D0B5F3",
+   bright_blue = "#D0B0F0",
    bright_white = "#FFFFFF", -- index 15
 
-   visual = "#20263a",
+   visual = "#403870",
    nontext = "#202636", -- indent lines
    menu = "#181c22", -- background manu
 
@@ -36,7 +36,7 @@ return {
 
    --- terminal colors
    --
-   tselection = "#24282f",
+   tselection = "#24282f55",
    
    tblack = "#14181f", -- ANSI 0
    twhite = "#dddddd", -- ANSI 7, 'selection' used for ANSI 8
@@ -54,3 +54,4 @@ return {
    tbright_blue = "#D0B5F3",
    tbright_white = "#FFFFFF", -- index 15
 }
+
