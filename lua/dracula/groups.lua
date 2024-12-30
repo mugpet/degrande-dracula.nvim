@@ -490,8 +490,8 @@ local function setup(configs)
       RainbowDelimiterCyan = { fg = colors.fg },
 
       -- mini.indentscope
-      MiniIndentscopeSymbol = { fg = "#B5629B" },
-      MiniIndentscopeSymbolOff = { fg = "#B5629B" },
+      MiniIndentscopeSymbol = { fg = colors.miniIndentBar },
+      MiniIndentscopeSymbolOff = { fg = colors.miniIndentBar },
 
 
       -- goolord/alpha-nvim
