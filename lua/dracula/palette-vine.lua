@@ -1,11 +1,11 @@
 ---@type Palette
 return {
    bg = "#222022",
-   fg = "#fff0f8", -- variabels
-   selection = "#3a3036", -- line selection (cursor line)
-   comment = "#b080a4",
+   fg = "#fff0f0", -- variabels
+   selection = "#383036", -- line selection (cursor line)
+   comment = "#a6a6a0",
 
-   visual = "#4c4046", -- incl. scroll bar
+   visual = "#464046", -- incl. scroll bar
    nontext = "#565052", -- indent lines
    menu = "#282024", -- background manu
 
@@ -22,7 +22,7 @@ return {
 
    pink = "#fff0a0", -- const, imports, equal =, =>, ===,  etc
    green = "#30d0df", -- functions, methods, etc
-   orange = "#ff3090", -- variable
+   orange = "#ff4090", -- variable
    -- purple = "#ff6000", -- this wil owerwrite variables (Orange)
    --
    operator = "#ff6000", -- this wil owerwrite variables (Orange)
@@ -32,12 +32,12 @@ return {
    define = "#ff6000", -- this wil owerwrite variables (Orange)
    macro = "#ff6000", -- this wil owerwrite variables (Orange)
    todo = "#ff6000", -- this wil owerwrite variables (Orange)
-   constant= "#ff89a0", -- this wil owerwrite variables (Orange)
+   constant= "#ff70a0", -- this wil owerwrite variables (Orange)
    --
    --
    yellow = "#ffffff", -- strings
    bright_cyan = "#00e0ff", -- Import xxxx from 
-   cyan = "#f0c874", -- HTML tags/elements, brackets, {}, whichkey menu
+   cyan = "#ffd060", -- HTML tags/elements, brackets, {}, whichkey menu
    bright_magenta = "#0ff000",
 
    miniIndentBar = "#0ff090",
