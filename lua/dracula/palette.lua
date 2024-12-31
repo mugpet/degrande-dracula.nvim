@@ -25,4 +25,12 @@ return {
    white = "#ABB2BF",
    black = "#191A21",
    miniIndentBar = "#ffff00",
+   operator = "#ff6000",
+   statement = "#ff6000",
+   include = "#ff6000",
+   excepetion = "#ff6000",
+   define = "#ff6000",
+   macro = "#ff6000",
+   todo = "#ff6000",
+   constant= "#ff89a0", -- this wil owerwrite variables (Orange)
 }

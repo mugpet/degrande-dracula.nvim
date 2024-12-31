@@ -100,6 +100,9 @@ local function get_configs()
    if g.colors_name == "dracula-calm" then
       configs.theme = "dracula-calm"
       configs.colors = require("dracula.palette-calm")
+   elseif g.colors_name == "dracula-vine" then
+      configs.theme = "dracula-vine"
+      configs.colors = require("dracula.palette-vine")
    elseif g.colors_name == "dracula-2025" then
       configs.theme = "dracula-2025"
       configs.colors = require("dracula.palette-2025")
