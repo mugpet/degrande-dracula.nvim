@@ -3,7 +3,7 @@ return {
    bg = "#14181f",
    fg = "#e9e9e9",
    selection = "#24282f",
-   comment = "#70787f",
+   comment = "#7072a0",
    orange = "#50f8ff",
    -- ANSI
    red = "#ff4080",
@@ -17,6 +17,22 @@ return {
    bright_magenta = "#ff50b8",
    cyan = "#00ffef", -- tags
    purple = "#3fff90", -- used as ANSI 4 (blue)
+
+
+
+   operator = "#ff6000", -- this wil owerwrite variables (Orange)
+   statement = "#ff6000", -- this wil owerwrite variables (Orange)
+   include = "#ff6000", -- this wil owerwrite variables (Orange)
+   excepetion = "#ff6000", -- this wil owerwrite variables (Orange)
+   define = "#ff6000", -- this wil owerwrite variables (Orange)
+   macro = "#ff6000", -- this wil owerwrite variables (Orange)
+   todo = "#ff6000", -- this wil owerwrite variables (Orange)
+
+   constant= "#f860f0", -- this wil owerwrite variables (Orange)
+   number = "#3fff90", -- this wil owerwrite variables (Orange)
+   boolean = "#3fff90", -- this wil owerwrite variables (Orange)
+
+
 
    bright_cyan = "#0fffcf",
 
