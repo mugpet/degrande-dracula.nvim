@@ -33,4 +33,10 @@ return {
    macro = "#ff6000",
    todo = "#ff6000",
    constant= "#ff89a0", -- this wil owerwrite variables (Orange)
+   lineNr = "#f0b470",
+
+   diagnosticUnderlineWarn= "#ffe000",
+   diagnosticUnderlineInfo = "#ffe000",
+   diagnosticUnderlineError = "#ff9000",
+   diagnosticUnderlineHint = "#ff5000",
 }

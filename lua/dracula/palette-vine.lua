@@ -1,28 +1,30 @@
 ---@type Palette
 return {
-   bg = "#212022",
+   bg = "#1b1b1b",
    fg = "#f0f0f0", -- variabels
-   selection = "#383036", -- line selection (cursor line)
-   comment = "#60b470",
+   selection = "#20303f", -- line selection (cursor line)
+   comment = "#ababab",
+   lineNr = "#40a0d0", -- line numbers
 
-   visual = "#464046", -- incl. scroll bar
-   nontext = "#565052", -- indent lines
-   menu = "#282024", -- background manu
+   visual = "#404040", -- incl. scroll bar
+   nontext = "#606050", -- indent lines
+   menu = "#262626", -- background manu
 
-   gutter_fg = "#14181f",
-   black = "#3a3036", -- ANSI, bottom bar
+   gutter_fg = "#1f1f1f",
+   black = "#20303f", -- ANSI, bottom bar
    winSplit = "#00e0f0", -- ANSI 0
 
    -- ANSI
-   red = "#f02060",
+   red = "#cf2020",
 
    white = "#707070", -- ANSI 7, 'selection' used for ANSI 8, Border around windows
 
    --  Most important colors
 
-   pink = "#fff0a0", -- const, imports, equal =, =>, ===,  etc
-   green = "#30d0df", -- functions, methods, etc
-   orange = "#ffb0d0", -- variable
+   pink = "#ffe060", -- const, imports, equal =, =>, ===,  etc
+   bracket = "#00d0ff", -- {}
+   green = "#00d0ff", -- functions, methods, etc
+   orange = "#f8c8c0", -- variable
    -- purple = "#ff6000", -- this wil owerwrite variables (Orange)
    --
    operator = "#ff6000", -- this wil owerwrite variables (Orange)
@@ -32,24 +34,30 @@ return {
    define = "#ff6000", -- this wil owerwrite variables (Orange)
    macro = "#ff6000", -- this wil owerwrite variables (Orange)
    todo = "#ff6000", -- this wil owerwrite variables (Orange)
-   constant= "#f040b0", -- this wil owerwrite variables (Orange)
+   number = "#50e0ff",
+
+   constant = "#00ff80",
+   boolean = "#00ff80",
    --
+   diagnosticUnderlineWarn= "#fff010",
+   diagnosticUnderlineInfo = "#fff010",
+   diagnosticUnderlineError = "#ff0050",
+   diagnosticUnderlineHint = "#b880ff",
    --
-   yellow = "#ffffff", -- strings
-   bright_cyan = "#00e0ff", -- Import xxxx from 
-   cyan = "#ffd060", -- HTML tags/elements, brackets, {}, whichkey menu
-   bright_magenta = "#0ff000",
+   yellow = "#f0f0f0", -- strings
+   bright_cyan = "#00e0ff", -- Import xxxx from
+   cyan = "#ff78b8", -- HTML tags/elements, brackets, {}, whichkey menu
+   bright_magenta = "#60f000",
 
    miniIndentBar = "#0ff090",
    --
 
    -- indexes 9-15
-   bright_red = "#ff8070",
-   bright_green = "#00f080",
-   bright_yellow = "#Ffe090",
+   bright_red = "#ffb090",
+   bright_green = "#10ff80",
+   bright_yellow = "#Ffee00",
    bright_blue = "#40d0f0",
    bright_white = "#FFFFFF", -- index 15
-
 
    -- --- terminal colors
    --
@@ -71,4 +79,3 @@ return {
    tbright_blue = "#f8a02f",
    tbright_white = "#e4f0e0", -- index 15
 }
-
