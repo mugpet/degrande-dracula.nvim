@@ -1,18 +1,18 @@
 ---@type Palette
 return {
    bg = "#1b1b1b",
-   fg = "#f0f0f0", -- variabels
-   selection = "#20303f", -- line selection (cursor line)
-   comment = "#ababab",
-   lineNr = "#40a0d0", -- line numbers
+   fg = "#e2e2e2", -- variabels
+   selection = "#1e303f", -- line selection (cursor line)
+   comment = "#949494",
+   lineNr = "#2092d0", -- line numbers
 
    visual = "#404040", -- incl. scroll bar
-   nontext = "#606050", -- indent lines
+   nontext = "#3e4458", -- indent lines
    menu = "#262626", -- background manu
 
    gutter_fg = "#1f1f1f",
-   black = "#20303f", -- ANSI, bottom bar
-   winSplit = "#00e0f0", -- ANSI 0
+   black = "#1e303f", -- ANSI, bottom bar
+   winSplit = "#20e0e0", -- ANSI 0
 
    -- ANSI
    red = "#cf2020",
@@ -21,11 +21,11 @@ return {
 
    --  Most important colors
 
-   pink = "#ffe060", -- const, imports, equal =, =>, ===,  etc
-   bracket = "#00d0ff", -- {}
+   pink = "#f0e898", -- const, imports, equal =, =>, ===,  etc
+   bracket = "#20d0ff", -- {}
    green = "#00d0ff", -- functions, methods, etc
-   orange = "#f8c8c0", -- variable
-   -- purple = "#ff6000", -- this wil owerwrite variables (Orange)
+   orange = "#f0c0b0", -- variable
+   -- purple = "#ff6600", -- this wil owerwrite variables (Orange)
    --
    operator = "#ff6000", -- this wil owerwrite variables (Orange)
    statement = "#ff6000", -- this wil owerwrite variables (Orange)
@@ -34,7 +34,7 @@ return {
    define = "#ff6000", -- this wil owerwrite variables (Orange)
    macro = "#ff6000", -- this wil owerwrite variables (Orange)
    todo = "#ff6000", -- this wil owerwrite variables (Orange)
-   number = "#50e0ff",
+   number = "#30e0ef",
 
    constant = "#00ff80",
    boolean = "#00ff80",
@@ -44,13 +44,38 @@ return {
    diagnosticUnderlineError = "#ff0050",
    diagnosticUnderlineHint = "#b880ff",
    --
-   yellow = "#f0f0f0", -- strings
-   bright_cyan = "#00e0ff", -- Import xxxx from
-   cyan = "#ff78b8", -- HTML tags/elements, brackets, {}, whichkey menu
+   yellow = "#e0e0a0", -- strings
+   bright_cyan = "#20e0f0", -- Import xxxx from
+   cyan = "#ff70b0", -- HTML tags/elements, brackets, {}, whichkey menu
    bright_magenta = "#60f000",
 
    miniIndentBar = "#0ff090",
    --
+
+
+   -- Blink cmp
+   blink_menu = "#0a5a3a",
+   blink_menu_border = "#00c0e0",
+   blink_menu_selection = "#80e0ff",
+   blink_menu_selection_bg = "#203040",
+   blink_scrollbar_thumb = "#0080a0",
+   blink_scrollbar_gutter = "#7e7e7e",
+   blink_label = "#ffff70",
+   blink_label_deprecated = "#a07ff0",
+   blink_label_match = "#ff70b0",
+   blink_label_detail = "#00f0ff",
+   blink_label_description = "#ffffcf",
+   blink_kind = "#dfdfdf",
+   blink_source = "#efefef",
+   blink_ghost_text = "#ffffff",
+   blink_doc = "#dadada",
+   blink_doc_border = "#ff70b0",
+   blink_doc_separator = "#ff70b0",
+   blink_doc_cursor_line = "#007f8f",
+   blink_signature_help = "#5e5e5e",
+   blink_signature_help_border = "#6f6f6f",
+   blink_signature_help_active_parameter = "#7f7f7f",
+
 
    -- indexes 9-15
    bright_red = "#ffb090",
