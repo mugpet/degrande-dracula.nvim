@@ -101,7 +101,7 @@ local function setup(configs)
       Search = { fg = colors.black, bg = colors.orange },
       IncSearch = { fg = colors.orange, bg = colors.comment },
       LineNr = { fg = colors.lineNr },
-      MatchParen = { fg = colors.fg, underline = true },
+      MatchParen = { fg = colors.matchParen, underline = true },
       NonText = { fg = colors.nontext },
       Pmenu = { fg = colors.white, bg = colors.menu },
       PmenuSel = { fg = colors.white, bg = colors.selection },

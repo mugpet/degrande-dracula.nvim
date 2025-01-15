@@ -1,7 +1,7 @@
 ---@type Palette
 return {
    bg = "#1b1b1b",
-   fg = "#e2e2e2", -- variabels
+   -- fg = "#e2e2e2", -- variabels
    selection = "#1e303f", -- line selection (cursor line)
    comment = "#949494",
    lineNr = "#4090d0", -- line numbers
@@ -13,6 +13,7 @@ return {
    gutter_fg = "#1f1f1f",
    black = "#1e303f", -- ANSI, bottom bar
    winSplit = "#20d0e0", -- ANSI 0
+   matchParen = "#0080b0", -- ANSI 4
 
    -- ANSI
    red = "#d02020",
@@ -21,10 +22,10 @@ return {
 
    --  Most important colors
 
-   pink = "#f0f090", -- const, imports, equal =, =>, ===,  etc
+   pink = "#a0d0e0", -- const, imports, equal =, =>, ===,  etc
    bracket = "#20d0ff", -- {}
-   green = "#00d0ff", -- functions, methods, etc
-   orange = "#f098a8", -- variable
+   green = "#ff00a0", -- functions, methods, etc
+   orange = "#60e000", -- variable
    -- purple = "#ff6600", -- this wil owerwrite variables (Orange)
    --
    operator = "#ff6000", -- this wil owerwrite variables (Orange)
@@ -36,20 +37,20 @@ return {
    todo = "#ff6000", -- this wil owerwrite variables (Orange)
    number = "#30e0ef",
 
-   constant = "#00e080",
-   boolean = "#00e080",
+   constant = "#f098a8",
+   boolean = "#f098a8",
    --
-   diagnosticUnderlineWarn= "#fff010",
-   diagnosticUnderlineInfo = "#fff010",
+   diagnosticUnderlineWarn= "#6080b0",
+   diagnosticUnderlineInfo = "#ff80d0",
    diagnosticUnderlineError = "#ff1050",
-   diagnosticUnderlineHint = "#b880ff",
+   diagnosticUnderlineHint = "#b070f0",
    --
-   yellow = "#e8e4a0", -- strings
-   bright_cyan = "#40e0f0", -- Import xxxx from
-   cyan = "#ff40b0", -- HTML tags/elements, brackets, {}, whichkey menu
+   yellow = "#e4e4a0", -- strings
+   bright_cyan = "#ffa090", -- Import xxxx from
+   cyan = "#00d4f0", -- HTML tags/elements, brackets, {}, whichkey menu
    bright_magenta = "#80f000",
 
-   miniIndentBar = "#ff00a0",
+   miniIndentBar = "#b0d020",
    --
 
 
@@ -61,7 +62,7 @@ return {
    blink_scrollbar_thumb = "#0080a0",
    blink_scrollbar_gutter = "#7e7e7e",
    blink_label = "#ffff70",
-   blink_label_deprecated = "#a07ff0",
+   blink_label_deprecated = "#b060f0",
    blink_label_match = "#ff70b8",
    blink_label_detail = "#00f0ff",
    blink_label_description = "#ffffcf",
@@ -78,9 +79,9 @@ return {
 
 
    -- indexes 9-15
-   bright_red = "#ffb090",
+   bright_red = "#ffa090",
    bright_green = "#10ff80",
-   bright_yellow = "#Ffee00",
+   bright_yellow = "#ffee00",
    bright_blue = "#40d0f0",
    bright_white = "#FFFFFF", -- index 15
 
@@ -90,15 +91,15 @@ return {
 
    tblack = "#20f038", -- ANSI 0
    twhite = "#f0f0f0", -- ANSI 7, 'selection' used for ANSI 8
-   tred = "#f00020",
-   tpink = "#f02090", -- const, imports, etc
-   tyellow = "#f0d000", -- strings
-   tbright_magenta = "#f05000",
+   tred = "#ff00a0",
+   tpink = "#e00080", -- const, imports, etc
+   tyellow = "#f08000", -- strings
+   tbright_magenta = "#f00000",
    tcyan = "#00d0ff", -- tags
    tpurple = "#e080ff", -- used as ANSI 4 (blue)
    tgreen = "#00f0b0", -- used as ANSI 4 (blue)
 
-   tbright_red = "#ffa0a0",
+   tbright_red = "#ffa090",
    tbright_green = "#6fffb0",
    tbright_yellow = "#FfF868",
    tbright_blue = "#f8a02f",
