@@ -1,31 +1,38 @@
 ---@type Palette
 return {
    bg = "#1b1b1b",
-   -- fg = "#e2e2e2", -- variabels
+   fg = "#f2f2f2", -- variabels, import { xxx } from, 
    selection = "#1e303f", -- line selection (cursor line)
    comment = "#949494",
-   lineNr = "#4090d0", -- line numbers
 
-   visual = "#404040", -- incl. scroll bar
-   nontext = "#3e4458", -- indent lines
+   lineNr = "#687888", -- line numbers
+   -- lineNrBg = "#101010",
+   miniIndentBar = "#ff6000",
+   nontext = "#283848", -- indent lines
+
+
+   visual = "#283848", -- incl. scroll bar
+   winSplit = "#283848", -- ANSI 0
+
    menu = "#262626", -- background manu
 
    gutter_fg = "#1f1f1f",
-   black = "#1e303f", -- ANSI, bottom bar
-   winSplit = "#20d0e0", -- ANSI 0
-   matchParen = "#0080b0", -- ANSI 4
+   black = "#202830", -- ANSI, bottom bar
+   -- matchParen = "#ffff00", -- ANSI 4
+   matchParenBg = "#0080b0", -- ANSI 4
 
-   -- ANSI
-   red = "#d02020",
+
+      -- ANSI
+      red = "#d02020",
 
    white = "#707070", -- ANSI 7, 'selection' used for ANSI 8, Border around windows
 
    --  Most important colors
 
-   pink = "#a0d0e0", -- const, imports, equal =, =>, ===,  etc
-   bracket = "#20d0ff", -- {}
-   green = "#ff00a0", -- functions, methods, etc
-   orange = "#60e000", -- variable
+   pink = "#20d4e8", -- const, imports, equal =, =>, ===,  etc
+   bracket = "#20d4e8", -- {}
+   green = "#ff688a", -- functions, methods, etc
+   orange = "#f4c0b8", -- variable
    -- purple = "#ff6600", -- this wil owerwrite variables (Orange)
    --
    operator = "#ff6000", -- this wil owerwrite variables (Orange)
@@ -37,21 +44,18 @@ return {
    todo = "#ff6000", -- this wil owerwrite variables (Orange)
    number = "#30e0ef",
 
-   constant = "#f098a8",
-   boolean = "#f098a8",
+   -- constant = "#d0d0d0",
+   boolean = "#d0a0ff",
    --
-   diagnosticUnderlineWarn= "#6080b0",
-   diagnosticUnderlineInfo = "#ff80d0",
+   diagnosticUnderlineWarn = "#00f0f0",
+   diagnosticUnderlineInfo = "#ff60d0",
    diagnosticUnderlineError = "#ff1050",
    diagnosticUnderlineHint = "#b070f0",
    --
-   yellow = "#e4e4a0", -- strings
-   bright_cyan = "#ffa090", -- Import xxxx from
+   yellow = "#ede490", -- strings
+   bright_cyan = "#80e8b0", -- Import xxxx from
    cyan = "#00d4f0", -- HTML tags/elements, brackets, {}, whichkey menu
-   bright_magenta = "#80f000",
-
-   miniIndentBar = "#b0d020",
-   --
+   bright_magenta = "#40ff00",
 
 
    -- Blink cmp
@@ -77,10 +81,9 @@ return {
    blink_signature_help_border = "#6f6f6f",
    blink_signature_help_active_parameter = "#7f7f7f",
 
-
    -- indexes 9-15
    bright_red = "#ffa090",
-   bright_green = "#10ff80",
+   bright_green = "#80e0a0",
    bright_yellow = "#ffee00",
    bright_blue = "#40d0f0",
    bright_white = "#FFFFFF", -- index 15
