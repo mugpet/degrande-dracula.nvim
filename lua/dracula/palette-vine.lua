@@ -1,15 +1,14 @@
 ---@type Palette
 return {
    bg = "#1b1b1b",
-   fg = "#f2f2f2", -- variabels, import { xxx } from, 
+   fg = "#f2f2f2", -- variabels, import { xxx } from,
    selection = "#1e303f", -- line selection (cursor line)
    comment = "#949494",
 
    lineNr = "#687888", -- line numbers
    -- lineNrBg = "#101010",
-   miniIndentBar = "#ff6000",
+   miniIndentBar = "#ff70a0",
    nontext = "#283848", -- indent lines
-
 
    visual = "#283848", -- incl. scroll bar
    winSplit = "#283848", -- ANSI 0
@@ -21,42 +20,41 @@ return {
    -- matchParen = "#ffff00", -- ANSI 4
    matchParenBg = "#0080b0", -- ANSI 4
 
-
-      -- ANSI
-      red = "#d02020",
+   -- ANSI
+   red = "#e02020",
 
    white = "#707070", -- ANSI 7, 'selection' used for ANSI 8, Border around windows
 
    --  Most important colors
 
-   pink = "#20d4e8", -- const, imports, equal =, =>, ===,  etc
-   bracket = "#20d4e8", -- {}
-   green = "#ff688a", -- functions, methods, etc
-   orange = "#f4c0b8", -- variable
+   pink = "#00d8ff", -- const, imports, equal =, =>, ===,  etc
+   bracket = "#00d8ff", -- {}
+   green = "#ffa8a8", -- functions, methods, etc
+   orange = "#a0ffe0", -- variable
+   -- orange = "#ffc0a0", -- variable
    -- purple = "#ff6600", -- this wil owerwrite variables (Orange)
    --
-   operator = "#ff6000", -- this wil owerwrite variables (Orange)
-   statement = "#ff6000", -- this wil owerwrite variables (Orange)
-   include = "#ff6000", -- this wil owerwrite variables (Orange)
-   excepetion = "#ff6000", -- this wil owerwrite variables (Orange)
-   define = "#ff6000", -- this wil owerwrite variables (Orange)
-   macro = "#ff6000", -- this wil owerwrite variables (Orange)
-   todo = "#ff6000", -- this wil owerwrite variables (Orange)
+   operator = "#e48030", -- this wil owerwrite variables (Orange)
+   statement = "#e48030", -- this wil owerwrite variables (Orange)
+   include = "#e48030", -- this wil owerwrite variables (Orange)
+   excepetion = "#e48030", -- this wil owerwrite variables (Orange)
+   define = "#e48030", -- this wil owerwrite variables (Orange)
+   macro = "#e48030", -- this wil owerwrite variables (Orange)
+   todo = "#e48030", -- this wil owerwrite variables (Orange)
    number = "#30e0ef",
 
    -- constant = "#d0d0d0",
    boolean = "#d0a0ff",
    --
    diagnosticUnderlineWarn = "#00f0f0",
-   diagnosticUnderlineInfo = "#ff60d0",
-   diagnosticUnderlineError = "#ff1050",
-   diagnosticUnderlineHint = "#b070f0",
+   diagnosticUnderlineInfo = "#ff60d8",
+   diagnosticUnderlineError = "#ff2030",
+   diagnosticUnderlineHint = "#a060f4",
    --
-   yellow = "#ede490", -- strings
-   bright_cyan = "#80e8b0", -- Import xxxx from
+   yellow = "#f8f0a0", -- strings
+   bright_cyan = "#ffa050", -- Import xxxx from
    cyan = "#00d4f0", -- HTML tags/elements, brackets, {}, whichkey menu
    bright_magenta = "#40ff00",
-
 
    -- Blink cmp
    blink_menu = "#0a5a3a",
@@ -66,13 +64,13 @@ return {
    blink_scrollbar_thumb = "#0080a0",
    blink_scrollbar_gutter = "#7e7e7e",
    blink_label = "#ffff70",
-   blink_label_deprecated = "#b060f0",
+   blink_label_deprecated = "#b060f8",
    blink_label_match = "#ff70b8",
    blink_label_detail = "#00f0ff",
    blink_label_description = "#ffffcf",
    blink_kind = "#dfdfdf",
    blink_source = "#a04000",
-   blink_ghost_text = "#a050f0",
+   blink_ghost_text = "#a860f8",
    blink_doc = "#dadada",
    blink_doc_border = "#ff70b0",
    blink_doc_separator = "#ff70b0",
@@ -97,7 +95,7 @@ return {
    tred = "#ff00a0",
    tpink = "#e00080", -- const, imports, etc
    tyellow = "#f08000", -- strings
-   tbright_magenta = "#f00000",
+   tbright_magenta = "#ff2020",
    tcyan = "#00d0ff", -- tags
    tpurple = "#e080ff", -- used as ANSI 4 (blue)
    tgreen = "#00f0b0", -- used as ANSI 4 (blue)
