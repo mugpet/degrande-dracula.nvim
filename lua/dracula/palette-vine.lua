@@ -27,50 +27,48 @@ return {
 
    --  Most important colors
 
-   pink = "#00d8ff", -- const, imports, equal =, =>, ===,  etc
-   bracket = "#00d8ff", -- {}
-   green = "#ffa8a8", -- functions, methods, etc
-   orange = "#a0ffe0", -- variable
-   -- orange = "#ffc0a0", -- variable
-   -- purple = "#ff6600", -- this wil owerwrite variables (Orange)
-   --
-   operator = "#e48030", -- this wil owerwrite variables (Orange)
-   statement = "#e48030", -- this wil owerwrite variables (Orange)
-   include = "#e48030", -- this wil owerwrite variables (Orange)
-   excepetion = "#e48030", -- this wil owerwrite variables (Orange)
-   define = "#e48030", -- this wil owerwrite variables (Orange)
-   macro = "#e48030", -- this wil owerwrite variables (Orange)
-   todo = "#e48030", -- this wil owerwrite variables (Orange)
-   number = "#30e0ef",
+   operator = "#7fff50", -- this wil owerwrite variables (Orange)
+   statement = "#ff00a0", -- this wil owerwrite variables (Orange)
+   include = "#ff80e0", -- this wil owerwrite variables (Orange)
+   excepetion = "#7fff50", -- this wil owerwrite variables (Orange)
+   define = "#ff40f0", -- this wil owerwrite variables (Orange)
+   macro = "#ff6800", -- this wil owerwrite variables (Orange)
+   todo = "#f46800", -- this wil owerwrite variables (Orange)
+   number = "#60e0ef",
 
    -- constant = "#d0d0d0",
-   boolean = "#d0a0ff",
+   boolean = "#d0ffff",
    --
-   diagnosticUnderlineWarn = "#00f0f0",
-   diagnosticUnderlineInfo = "#ff60d8",
-   diagnosticUnderlineError = "#ff2030",
+   diagnosticUnderlineWarn = "#50f0f0",
+   diagnosticUnderlineInfo = "#ff90a0",
+   diagnosticUnderlineError = "#ff3030",
    diagnosticUnderlineHint = "#a060f4",
    --
-   yellow = "#f8f0a0", -- strings
-   bright_cyan = "#ffa050", -- Import xxxx from
-   cyan = "#00d4f0", -- HTML tags/elements, brackets, {}, whichkey menu
-   bright_magenta = "#40ff00",
+   --
+   pink = "#00b8ff", -- const, imports, equal =, =>, ===,  etc
+   cyan = "#00ffea", -- HTML tags/elements, brackets, {}, whichkey menu
+   green = "#e850ff", -- function name, methods,HTML Attrib,  etc
+   bracket = "#ffa898", -- {}
+   orange = "#ffb0a0", -- variable, Key
+   yellow = "#ffff90", -- strings
+   bright_cyan = "#ff6000", -- Import xxxx from
+   bright_magenta = "#50ff50",
 
    -- Blink cmp
    blink_menu = "#0a5a3a",
-   blink_menu_border = "#00d0e0",
-   blink_menu_selection = "#80e0ff",
+   blink_menu_border = "#00c0f0",
+   blink_menu_selection = "#90d0ff",
    blink_menu_selection_bg = "#203040",
    blink_scrollbar_thumb = "#0080a0",
    blink_scrollbar_gutter = "#7e7e7e",
    blink_label = "#ffff70",
-   blink_label_deprecated = "#b060f8",
+   blink_label_deprecated = "#b000ff",
    blink_label_match = "#ff70b8",
    blink_label_detail = "#00f0ff",
    blink_label_description = "#ffffcf",
    blink_kind = "#dfdfdf",
-   blink_source = "#a04000",
-   blink_ghost_text = "#a860f8",
+   blink_source = "#008090",
+   blink_ghost_text = "#b060ff",
    blink_doc = "#dadada",
    blink_doc_border = "#ff70b0",
    blink_doc_separator = "#ff70b0",
@@ -81,22 +79,22 @@ return {
 
    -- indexes 9-15
    bright_red = "#ffa090",
-   bright_green = "#80e0a0",
+   bright_green = "#80ff90",
    bright_yellow = "#ffee00",
-   bright_blue = "#40d0f0",
+   bright_blue = "#00f8ff",
    bright_white = "#FFFFFF", -- index 15
 
    -- --- terminal colors
    --
    tselection = "#24282f55",
 
-   tblack = "#20f038", -- ANSI 0
+   tblack = "#30ff48", -- ANSI 0
    twhite = "#f0f0f0", -- ANSI 7, 'selection' used for ANSI 8
    tred = "#ff00a0",
    tpink = "#e00080", -- const, imports, etc
-   tyellow = "#f08000", -- strings
+   tyellow = "#d0f0b0", -- strings
    tbright_magenta = "#ff2020",
-   tcyan = "#00d0ff", -- tags
+   tcyan = "#00a0ff", -- tags
    tpurple = "#e080ff", -- used as ANSI 4 (blue)
    tgreen = "#00f0b0", -- used as ANSI 4 (blue)
 
